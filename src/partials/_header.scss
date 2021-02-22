@@ -1,0 +1,48 @@
+header{
+  background-color: $black;
+  .header-top{
+    height: $height_h_top;
+    width: $maxwidth;
+    .container{
+      ul{
+        margin-top: $m_10;
+        float: right;
+        @include flex;
+        li{
+          color: $gray;
+          padding-left: $p_20;
+          margin-right: $m_10;
+          i{
+            color: #009cff;
+          }
+        }
+      }
+    }
+  }
+  .header-bottom{
+   height: $height_h_bottom;
+    nav{
+      width: 100%;
+      img {
+        width: 90px;
+        margin-top: $m_10;
+      }
+      ul{
+        margin-right: 50px;
+        margin-top: $m_20;
+        @include float;
+        li{
+          padding: 0px $p_10;
+          margin-right: $m_20;
+          height: 40px;
+          color: $white;
+
+          &:hover {
+            background-color: $white;
+            color: $black;
+          }
+        }
+      }
+    }
+  }
+}

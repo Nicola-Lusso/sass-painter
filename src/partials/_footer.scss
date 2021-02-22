@@ -1,0 +1,39 @@
+footer{
+  .top{
+    height: 300px;
+    background-color: rgba(209, 209, 209, 0.51);
+    .container{
+    @include container;
+      ul{
+        @include column();
+        padding: 0 70px;
+        li{
+          padding: 5px;
+        }
+      }
+    }
+  }
+  .bottom {
+   height: 60px;
+   background-color: $black;
+   .container{
+    img{
+      padding-right: 30px;
+    }
+   ul{
+     @include float;
+     margin-top: $m_10;
+     li {
+       margin: 0 $m_10;
+       color: $white;
+       a {
+         color: grey;
+         &:hover {
+           color: $white;
+          }
+        }
+      }
+    }
+   }
+  }
+}

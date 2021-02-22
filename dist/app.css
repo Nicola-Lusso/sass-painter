@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.pink {
+  margin-top: 50px;
+  color: #c70cb9;
+  line-height: 1.6;
+}
+
+.first {
+  font-size: 25px;
+  color: black;
+}
+
+.btn {
+  text-transform: uppercase;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn-1 {
+  text-align: center;
+  width: 200px;
+  background-color: black;
+  color: white;
+}
+
+.btn-2 {
+  text-align: center;
+  width: 260px;
+  border: 2px solid black;
+}
+
+header {
+  background-color: black;
+}
+header .header-top {
+  height: 45px;
+  width: 100%;
+}
+header .header-top .container ul {
+  margin-top: 10px;
+  float: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header-top .container ul li {
+  color: gray;
+  padding-left: 20px;
+  margin-right: 10px;
+}
+header .header-top .container ul li i {
+  color: #009cff;
+}
+header .header-bottom {
+  height: 60px;
+}
+header .header-bottom nav {
+  width: 100%;
+}
+header .header-bottom nav img {
+  width: 90px;
+  margin-top: 10px;
+}
+header .header-bottom nav ul {
+  margin-right: 50px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
+header .header-bottom nav ul li {
+  padding: 0px 10px;
+  margin-right: 20px;
+  height: 40px;
+  color: white;
+}
+header .header-bottom nav ul li:hover {
+  background-color: white;
+  color: black;
+}
+
+main {
+  background-image: url("https://www.everydaysight.com/wp-content/uploads/2019/07/blind-painters-artists.jpg");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+}
+main .jumbotron {
+  width: 80%;
+  margin: auto;
+}
+main .jumbotron .text {
+  position: absolute;
+  margin-top: 20px;
+}
+main .jumbotron h1 {
+  color: black;
+  font-size: 50px;
+}
+main .jumbotron h1 span {
+  font-size: 30px;
+}
+main .jumbotron h5 {
+  font-size: 27px;
+}
+main .jumbotron h6 {
+  font-size: 20px;
+}
+main .jumbotron .buttons {
+  display: flex;
+  margin-top: 50px;
+}
+main .jumbotron .buttons .btn {
+  margin-right: 20px;
+}
+
+footer .top {
+  height: 300px;
+  background-color: rgba(209, 209, 209, 0.51);
+}
+footer .top .container {
+  width: 80%;
+  margin: auto;
+}
+footer .top .container ul {
+  display: inline-block;
+  justify-content: space-between;
+  padding: 0 70px;
+}
+footer .top .container ul li {
+  padding: 5px;
+}
+footer .bottom {
+  height: 60px;
+  background-color: black;
+}
+footer .bottom .container img {
+  padding-right: 30px;
+}
+footer .bottom .container ul {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  margin-top: 10px;
+}
+footer .bottom .container ul li {
+  margin: 0 10px;
+  color: white;
+}
+footer .bottom .container ul li a {
+  color: grey;
+}
+footer .bottom .container ul li a:hover {
+  color: white;
+}

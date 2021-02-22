@@ -1,0 +1,46 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul li{
+  list-style: none;
+  cursor: pointer;
+}
+
+.container{
+  width: $contwidth;
+  margin: auto;
+}
+
+.pink{
+  margin-top: 50px;
+  color: #c70cb9;
+  line-height: 1.6;
+}
+
+.first{
+  font-size: 25px;
+  color: black;
+}
+
+.btn {
+  text-transform: uppercase;
+  padding: $p_10;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn-1 {
+  text-align: center;
+  width: 200px;
+  background-color: $black;
+  color: $white;
+}
+
+.btn-2 {
+  text-align: center;
+  width: 260px;
+  border: 2px solid $black;
+}
