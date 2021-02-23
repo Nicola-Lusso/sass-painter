@@ -1,14 +1,13 @@
 main {
-  background-image: url('https://www.everydaysight.com/wp-content/uploads/2019/07/blind-painters-artists.jpg');
-  height: 500px;
-  width: 100%;
-  background-size: cover;
-  position: relative;
   .jumbotron{
-    @include container;
+    background-image: url('../img/jumbotron.jpg');
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+
     .text{
-      position: absolute;
-      margin-top: 20px;
+      @include container;
+      padding-top: 20px;
     }
       h1{
         color: $black;

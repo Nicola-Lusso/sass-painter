@@ -1,0 +1,12 @@
+.central{
+  @include container;
+  .box-container{
+  @include flex_3;
+    .box{
+      @include box;
+      img{
+        width: 300px;
+      }
+    }
+  }
+}
