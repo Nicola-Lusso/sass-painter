@@ -1,0 +1,55 @@
+.ultimate{
+  background-color: rgba(223, 223, 223, 0.43);
+  padding: $p_50 0;
+  .boxtable{
+    padding-top: $p_50;
+
+    @include container;
+
+    .row{
+      width: 100%;
+      display: flex;
+      .tab{
+
+        width: 50%;
+        height: 300px;
+        .text_tab{
+          @include container;
+          h2{
+            @include h2_tab;
+          }
+          p{
+            @include p_tab;
+          }
+          button{
+            margin-top: $m_20;
+            font-size: 20px;
+            padding: 8px 18px;
+          }
+        }
+      }
+      .purple{
+        background-color: purple;
+      }
+      .cell{
+        background-image: url('https://previews.123rf.com/images/parsha/parsha2002/parsha200200016/139211242-selective-focus-beautiful-pink-flowers-background-abstract-soft-sweet-pink-flower-background-beautif.jpg');
+        background-size: cover;
+      }
+
+    .dragon{
+      background-image: url('https://www.mobolize.com/wp/wp-content/uploads/2019/05/dragon-eye-300x209.jpg');
+        background-size: cover;
+    }
+    .dark{
+      background-color: rgb(55, 55, 55);
+    }
+    .blue{
+      background-color: rgb(42, 104, 186);
+    }
+    .pc{
+      background-image: url('https://www.microsoft.com/it-it/microsoft-365/blog/wp-content/uploads/sites/40/2019/01/OfficeNews_365Mac-440x268.png');
+        background-size: cover;
+    }
+  }
+  }
+}

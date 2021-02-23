@@ -49,3 +49,18 @@
   width: 90%;
   margin: auto;
 }
+
+@mixin h2_tab{
+  color: $white;
+  font-size: 32px;
+  font-weight: 500;
+  padding-top: $p_20;
+}
+
+@mixin p_tab {
+  color: $white;
+  line-height: 1.6;
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: $p_20;
+}
